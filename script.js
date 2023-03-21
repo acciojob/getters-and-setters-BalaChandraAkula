@@ -5,7 +5,7 @@ class Person {
 		this.age = age;
 	}
 	set ageNum(age){
-		this.age = age;
+		return this.age = age;
 	}
 	get details(){
 		return this.name;
